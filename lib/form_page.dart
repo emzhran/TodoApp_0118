@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 class FormPage extends StatefulWidget {
   const FormPage({super.key});
@@ -127,7 +128,32 @@ class _FormPageState extends State<FormPage> {
                   const Text(
                     'Task Date:',
                     style: TextStyle(fontSize: 18),
-                  )
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Expanded(
+                        child: Text(
+                          _selectedDate != null
+                              ? DateFormat('dd-MM-yyyy hh:mm a').format(_selectedDate!)
+                              : 'Select a date',
+                          style: TextStyle(fontSize: 18),
+                        ),
+                      ),
+                      IconButton(
+                        icon: const Icon(Icons.calendar_today, color: Colors.blue),
+                        onPressed: ()=> _showDateTimePicker(context),
+                      ),
+                    ],
+                  ),
+                  if(_dateError != null)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 5),
+                    child: Text(
+                      _dateError!,
+                      style: const TextStyle(color: Colors.red, fontSize: 14),
+                    ),
+                  ),
                 ],
               )
             ],
