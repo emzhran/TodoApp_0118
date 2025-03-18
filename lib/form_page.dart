@@ -189,7 +189,10 @@ class _FormPageState extends State<FormPage> {
                     ),
                   ],
                 )
-              )
+              ),
+              const SizedBox(height: 20),
+              const Text('Task List',
+              style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),)
             ],
           ),
         ),
