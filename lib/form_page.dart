@@ -98,12 +98,13 @@ class _FormPageState extends State<FormPage> {
   }
 
   void _validateSubmit() {
+    bool isValid = _key.currentState!.validate();
     setState(() {
       _dateError = _selectedDate == null ? 'Please select a date' : null;
-      {
-        addData();
-      }
     });
+    if(isValid && _selectedDate != null){
+      addData();
+    }
   }
 
   @override
