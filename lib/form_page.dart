@@ -232,7 +232,14 @@ class _FormPageState extends State<FormPage> {
                                 ),
                               )
                             ],
-                          )
+                          ),
+                          Checkbox(
+                            value: listTugas[index]['done'], 
+                            onChanged: (bool? value){
+                              setState(() {
+                                listTugas[index]['done'] = value;
+                            });
+                          })
                         ],
                       ),
                     );
