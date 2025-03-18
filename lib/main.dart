@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stateful_widget/counter_page.dart';
+import 'package:stateful_widget/form_page.dart';
 import 'package:stateful_widget/todo_page.dart';
 
 void main() {
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const TodoPage(),
+      debugShowCheckedModeBanner: false,
+      home: const FormPage(),
     );
   }
 }
