@@ -1,16 +1,15 @@
-# stateful_widget
+<h1>Preview Aplikasi</h1>
 
-A new Flutter project.
+![Screenshot 2025-03-19 003544](https://github.com/user-attachments/assets/e3c0e163-2221-4043-9268-b177230bd94e)
 
-## Getting Started
+![Screenshot 2025-03-19 003627](https://github.com/user-attachments/assets/6fdee33d-8deb-473d-9391-e15a90399796)
 
-This project is a starting point for a Flutter application.
+![Screenshot 2025-03-19 003648](https://github.com/user-attachments/assets/6875b0ff-93d3-4cd4-a380-3f5a2015a3c8)
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot 2025-03-19 003719](https://github.com/user-attachments/assets/8524948b-a7ff-465a-b8be-2f5fe4966ba0)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Screenshot 2025-03-19 003740](https://github.com/user-attachments/assets/2148901c-0a34-44da-98d7-5ac1aba40e67)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot 2025-03-19 003825](https://github.com/user-attachments/assets/f6bf5519-25a2-4d9c-9727-9bc1b21a9155)
+
+![Screenshot 2025-03-19 004035](https://github.com/user-attachments/assets/ccae23b7-405a-4ed6-a45b-4fe4dab46422)
