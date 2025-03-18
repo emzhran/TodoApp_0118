@@ -119,6 +119,16 @@ class _FormPageState extends State<FormPage> {
                   'Form Page',
                   style: TextStyle(fontSize: 30),
                 ),
+              ),
+              const SizedBox(height: 20),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text(
+                    'Task Date:',
+                    style: TextStyle(fontSize: 18),
+                  )
+                ],
               )
             ],
           ),
