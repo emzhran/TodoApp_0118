@@ -25,6 +25,13 @@ class _FormPageState extends State<FormPage> {
       _selectedDate = null;
       _dateError = null;
     });
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text('Data added successfully'),
+        backgroundColor: Colors.green,
+        duration: Duration(seconds: 2),
+      ),
+    );
   }
 
   @override
