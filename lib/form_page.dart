@@ -96,6 +96,15 @@ class _FormPageState extends State<FormPage> {
     );
   }
 
+  void _validateSubmit() {
+    setState(() {
+      _dateError = _selectedDate == null ? 'Please select a date' : null;
+      {
+        addData();
+      }
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return const Placeholder();
